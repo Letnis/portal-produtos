@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import LoginInput from './login-input';
 import MainButton from '../main-button';
@@ -13,7 +14,7 @@ export default (props) => {
           <MainButton text="Entrar" />
         </div>
         <div className="field">
-          <a href="" >Clique aqui para se cadastrar</a>
+          <Link to="/cadastro">Clique aqui para se cadastrar</Link>
         </div>
       </div>
     </div>
