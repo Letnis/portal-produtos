@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 
 export default (props) => {
   return (
-    <button type={props.type} className="button">
+    <h1 className="title text-white">
       {props.text}
-    </button>
-  )
+    </h1>
+  );
 }
