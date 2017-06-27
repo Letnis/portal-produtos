@@ -9,7 +9,11 @@ export default (props) => {
       <div className="hero-body">
         <div className="container">
           <LoginTitle />
-          <LoginForm />
+          <div className="columns">
+            <div className="column is-4 is-offset-4">
+              <LoginForm />
+            </div>
+          </div>
         </div>
       </div>
     </section>

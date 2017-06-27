@@ -1,10 +1,19 @@
-.text-white{
-  color: #fff;
+html, 
+body {
+  height: 100%;
 }
 
-.section.is-info.is-bold {
+body {
   background-image: -webkit-linear-gradient(309deg,#1577c6 0,#3273dc 71%,#4366e5 100%);
   background-image: linear-gradient(141deg,#1577c6 0,#3273dc 71%,#4366e5 100%);
+}
+
+.section {
+  background-color: transparent;
+}
+
+.text-white {
+  color: #fff;
 }
 
 .login-title {
