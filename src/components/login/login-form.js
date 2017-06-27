@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import LoginInput from './login-input';
+import MainButton from '../main-button';
 
 export default (props) => {
   return (
@@ -9,9 +10,10 @@ export default (props) => {
         <LoginInput label="Login" id="txt-login" type="text" placeholder="Digite o login" />
         <LoginInput label="Senha" id="txt-password" type="text" placeholder="Digite a senha" />
         <div className="field">
-          <button className="button">
-            Entrar
-          </button>
+          <MainButton text="Entrar" />
+        </div>
+        <div className="field">
+          <a href="" >Clique aqui para se cadastrar</a>
         </div>
       </div>
     </div>
